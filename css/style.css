@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,600;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: snow;
+}
+
+.topo {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #fcdc64;
+}
+
+.topo-logo {
+    height: 72px;
+}
+
+.topo-titulo {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 900;
+    font-size: 40px;
+}
+.topo-icone {
+    height: 72px;
+}
+
+.noticia {
+    margin-bottom: 48px;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.noticia-inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.noticia-imagem {
+    margin-top: 20px;
+    width: 800px;
+}
+
+.noticia-titulo {
+    text-align:left;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.noticia-lide {
+    text-align:left;
+    margin-left: 50px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight:50;
+    margin-top: 30px;
+}
+
+.noticia-autoria {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.noticia-data {
+    margin-left: 10px
+}
+
+.noticia-fim {
+    text-align: justify;
+    margin-top: 50px;
+    font-size: 25px;
+    
+}
+
+.letreiro {
+    padding: 32px;
+    border-top: 1px solid gold;
+}
+
+.letreiro-imagem {
+    height: 100px;
+    display: block;
+    margin:0 auto;
+}
+
+.br1 {
+    margin-top: 60px;
+}
+
+.br2 {
+    margin-top: 60px;
+}
